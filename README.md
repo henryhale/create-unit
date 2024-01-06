@@ -1,6 +1,8 @@
+![](starter/src/public/favicon.png)
+
 # create-unit
 
-A better way to create Unit.js applications
+A better way to create [Unit.js](https://github.com/henryhale/unit.js) applications
 
 ## setup
 
