@@ -5,7 +5,13 @@
         "requireBranch": "master"
     },
     "changelogFile": "CHANGELOG.md",
-    "github": false,
+    "github": {
+        "release": true,
+        "releaseName": "create-unit v${version}",
+        "autoGenerate": true,
+        "assets": ["./"],
+        "comments": true
+    },
     "npm": {
         "publish": true,
         "skipChecks": true
