@@ -75,7 +75,7 @@ Basic understanding of HTML, CSS, JavaScript, [Alpine.js](https://alpinejs.dev/)
 
    ```html
    <!-- index.unit -->
-   import Hello from "hello.unit";
+   import Hello from "../components/hello.unit";
 
    <Hello />
    ```
