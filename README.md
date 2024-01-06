@@ -1,6 +1,6 @@
 <div align=center>
 
-![](https://github.com/henryhale/create-unit/blob/master/starter/src/public/favicon.png)
+![](https://github.com/henryhale/create-unit/raw/master/starter/src/public/favicon.png)
 
 # Unit.js
 
@@ -20,6 +20,8 @@ Define state and components once, reuse them wherever.
 ## Screenshot
 
 ![](https://github.com/henryhale/create-unit/blob/master/screenshot.png)
+
+Demo link: [Click here](https://henryhale.github.io/unit.js/).
 
 ## Key Features
 
