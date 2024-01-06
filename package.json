@@ -12,7 +12,8 @@
   "keywords": [
     "create",
     "starter",
-    "unit.js"
+    "unit.js",
+    "alpinejs"
   ],
   "author": {
     "name": "Henry Hale",
