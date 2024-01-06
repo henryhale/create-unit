@@ -1,0 +1,26 @@
+{
+  "name": "create-unit",
+  "version": "0.0.0",
+  "description": "A better way to create Unit.js applications",
+  "bin": {
+    "create-unit": "bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create",
+    "starter",
+    "unit.js"
+  ],
+  "author": {
+    "name": "Henry Hale",
+    "url": "https://github.com/henryhale"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "yoctocolors": "^1.0.0"
+  }
+}
