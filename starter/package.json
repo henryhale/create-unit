@@ -1,0 +1,20 @@
+{
+  "name": "unit.js-starter",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "vite-plugin-unit": "^0.0.2"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.3"
+  }
+}
