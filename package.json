@@ -13,7 +13,8 @@
     "create",
     "starter",
     "unit.js",
-    "alpinejs"
+    "alpinejs",
+    "vite"
   ],
   "author": {
     "name": "Henry Hale",
