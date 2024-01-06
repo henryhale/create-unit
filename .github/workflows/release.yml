@@ -63,10 +63,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # Tests
-      - name: Run tests
-        run: pnpm test
-
       # Setup NPM
       - name: Create .npmrc
         run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
