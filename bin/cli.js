@@ -13,6 +13,7 @@ const src = join(dirname(fileURLToPath(import.meta.url)), "../starter");
 async function createProject() {
     try {
         await copy(src, dest);
+        await copy(`${src}/.gitignore`, `${dest}/.gitignore`);
         log(green(`[y] ${dest} created successfully! 🎉`));
     } catch (err) {
         error(red("[x] error creating project: " + err));
