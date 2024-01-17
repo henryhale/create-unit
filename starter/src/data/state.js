@@ -1,12 +1,12 @@
 export function defineState(Alpine) {
     
-    const baseURL = "./"; // import.meta.hot ? "/" : "/unit.js/";
+    const baseURL = "./";
 
-    // https://alpinejs.dev/
+    // https://alpinejs.dev/essentials/state#re-usable-data
     Alpine.data("app", () => ({
         logo: baseURL + "javascript.svg",
         brand: "Unit.js",
-        github: "https://github.com/henryhale/unit.js",
+        github: "https://github.com/henryhale/create-unit",
         links: [
             { name: "Home", href: baseURL },
             { name: "About", href: baseURL + "about.html" },
@@ -18,7 +18,7 @@ export function defineState(Alpine) {
 
 export function defineTodoAppState(Alpine) {
     
-    //https://alpinejs.dev/
+    //https://alpinejs.dev/essentials/state#re-usable-data
     Alpine.data("todo", () => ({
         note: null,
         list: []
