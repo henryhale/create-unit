@@ -51,7 +51,7 @@ Basic understanding of HTML, CSS, JavaScript, [Alpine.js](https://alpinejs.dev/)
 
    ```sh
     npx create unit my_app
-    # pnpm create unit my_app
+    # pnpm dlx create-unit my_app
     ```
 
     Navigate to your project and install dependencies
