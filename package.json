@@ -1,6 +1,6 @@
 {
   "name": "create-unit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A better way to create Unit.js applications",
   "bin": {
     "create-unit": "bin/cli.js"
