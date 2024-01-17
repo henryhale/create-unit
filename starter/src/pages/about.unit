@@ -3,10 +3,10 @@ import Footer from "../components/footer.unit";
 
 <Navbar />
 <main>
-    <h2>About Unit.js</h2>
+    <h2>Unit.js</h2>
     <p>
-        Unit.js is a sweet little wrapper around Alpine.js
-        to enable you build multi-page applications.
+        Unit.js is a sweet little framework powered by <a href="https://vitejs.dev">Vite.js</a>
+        to enable you build multi-page applications with <a href="https://alpinejs.dev">Alpine.js</a>.
     </p>
 </main>
 <Footer />
