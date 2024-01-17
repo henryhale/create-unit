@@ -4,7 +4,7 @@ import { copy } from "fs-extra";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { log, error } from "node:console";
-import { bgGreen, white, green, red } from 'yoctocolors';
+import { white, green, red, bgYellow } from 'yoctocolors';
 import { magenta } from "yoctocolors";
 
 const [, , dest] = process.argv;
@@ -21,7 +21,9 @@ async function createProject() {
     }
 }
 
-log(bgGreen(`   ${white("Unit.js")}   `));
+console.log(bgYellow(" ".repeat(11)));
+console.log(bgYellow(white("  Unit.js  ")));
+console.log(bgYellow(" ".repeat(11)));
 
 log("[-] initializing...");
 
