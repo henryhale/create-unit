@@ -1,4 +1,4 @@
-import "./style.css";
+import "./global.css";
 
 import Alpine from "alpinejs";
 import { defineState, defineTodoAppState } from "./data/state";

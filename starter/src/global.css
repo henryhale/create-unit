@@ -84,7 +84,6 @@ main {
     height: 3em;
     will-change: filter;
     transition: filter 300ms;
-    border-radius: 50% 50% 0 0;
 }
 
 .logo:hover {
