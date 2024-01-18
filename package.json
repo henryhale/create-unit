@@ -1,6 +1,6 @@
 {
   "name": "create-unit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Build your website in units using Alpine.js",
   "bin": {
     "create-unit": "bin/cli.js"
