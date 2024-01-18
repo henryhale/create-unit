@@ -1,4 +1,6 @@
-# unit.js starter
+![](./src/public/favicon.png)
+
+# Unit.js - starter
 
 - install dependencies: `npm install`
 - start dev server: `npm run dev`
