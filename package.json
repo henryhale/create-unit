@@ -1,7 +1,7 @@
 {
   "name": "create-unit",
-  "version": "0.0.8",
-  "description": "A better way to create Unit.js applications",
+  "version": "0.0.7",
+  "description": "Build your website in units using Alpine.js",
   "bin": {
     "create-unit": "bin/cli.js"
   },
@@ -12,6 +12,7 @@
   "keywords": [
     "create",
     "starter",
+    "template",
     "unit.js",
     "alpinejs",
     "vite"
