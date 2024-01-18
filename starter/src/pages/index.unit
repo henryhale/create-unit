@@ -2,6 +2,7 @@ import Navbar from "../components/nav.unit";
 import Footer from "../components/footer.unit";
 
 <Navbar />
+
 <main>
     <div class="card">
         <button x-data="{count: 0}" @click="count++" type="button">
@@ -9,4 +10,5 @@ import Footer from "../components/footer.unit";
         </button>
     </div>
 </main>
+
 <Footer />
