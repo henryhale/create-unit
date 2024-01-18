@@ -1,6 +1,6 @@
 <div align=center>
 
-![](https://github.com/henryhale/create-unit/raw/master/starter/src/public/favicon.png)
+<img src=https://github.com/henryhale/create-unit/raw/master/starter/src/public/favicon.png />
 
 # Unit.js
 
@@ -108,12 +108,12 @@ Basic understanding of HTML, CSS, JavaScript, [Alpine.js](https://alpinejs.dev/)
 
 - `.vscode/`: contains settings and recommended extensions for [Visual Studio Code](https://code.visualstudio.com/) users
 - `src/`: all your project source files here
-- `src/components/`: contains reusable .unit files
+- `src/components/`: contains reusable `.unit` files
 - `src/data/`: contains composable and state scripts
-- `src/pages/`: contains only .unit files for corresponding html pages
+- `src/pages/`: contains only `.unit` files for corresponding html pages
 - `src/public/`: contains assets to be served at the root like _favicon.png_
-- `src/template.html`: used to generate html pages from every .unit file in `src/pages/` folder on build time
-- `src/main.js`: common script for all pages place in the `src/template.html`. For a different script per page, create another script and add a script tag in the corresponding .unit file under the `src/pages/` folder
+- `src/template.html`: used to generate html pages from every `.unit` file in `src/pages/` folder on build time
+- `src/main.js`: common script for all pages place in the `src/template.html`. For a different script per page, create another script and add a script tag in the corresponding `.unit` file under the `src/pages/` folder
 - `src/style.css`: Shared CSS styles
 
 ## Contributing
