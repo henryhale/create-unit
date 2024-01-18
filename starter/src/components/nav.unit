@@ -11,3 +11,21 @@ import NavItem from "./nav-item.unit";
         </template>
     </ul>
 </nav>
+
+<script>
+window.addEventListener("alpine:init", () => {
+
+    // https://alpinejs.dev/essentials/state#re-usable-data
+    Alpine.data("app", () => ({
+        logo: "./favicon.png",
+        brand: "Unit.js",
+        github: "https://github.com/henryhale/create-unit",
+        links: [
+            { name: "Home", href: "./" },
+            { name: "About", href: "./about.html" },
+            { name: "Example", href: "./example.html" },
+        ]
+    }));
+
+});
+</script>
