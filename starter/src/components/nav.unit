@@ -1,31 +1,13 @@
 import NavItem from "./nav-item.unit";
 
-<nav x-data="app">
-    <a :href="github">
-        <img :src="logo" :alt="brand" class="logo"/>
+<nav>
+    <a href="https://github.com/henryhale/create-unit">
+        <img src="/favicon.png" alt="Unit.js" class="logo"/>
     </a>
-    <h1 x-text="brand"></h1>
+    <h1>Unit.js</h1>
     <ul>
-        <template x-for="x in links" x-key="x.link">
-            <NavItem x-data="x" />
-        </template>
+        <NavItem name="Home" href="/" />
+        <NavItem name="About" href="/about/" />
+        <NavItem name="Example" href="/example/" />
     </ul>
 </nav>
-
-<script>
-window.addEventListener("alpine:init", () => {
-
-    // https://alpinejs.dev/essentials/state#re-usable-data
-    Alpine.data("app", () => ({
-        logo: "./favicon.png",
-        brand: "Unit.js",
-        github: "https://github.com/henryhale/create-unit",
-        links: [
-            { name: "Home", href: "./" },
-            { name: "About", href: "./about.html" },
-            { name: "Example", href: "./example.html" },
-        ]
-    }));
-
-});
-</script>
