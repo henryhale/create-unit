@@ -2,7 +2,7 @@
   "name": "unit.js-starter",
   "private": true,
   "version": "0.0.0",
-  "description": "Build your website in units using Alpine.js",
+  "description": "Build your website in units.",
   "type": "module",
   "scripts": {
     "dev": "vite",
