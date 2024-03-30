@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10](https://github.com/henryhale/create-unit/compare/v0.0.9...v0.0.10) (2024-03-30)
+
+
+### Bug Fixes
+
+* **ci:** update lockfile ([7ae7942](https://github.com/henryhale/create-unit/commit/7ae7942b91b61d7d872a781de62cdc256657ec70))
+
 ## [0.0.9](https://github.com/henryhale/create-unit/compare/v0.0.8...v0.0.9) (2024-01-18)
 
 ## [0.0.8](https://github.com/henryhale/create-unit/compare/v0.0.7...v0.0.8) (2024-01-17)
