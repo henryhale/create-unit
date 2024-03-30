@@ -2,6 +2,6 @@
 
 # Unit.js - starter
 
-- install dependencies: `npm install`
-- start dev server: `npm run dev`
-- build for produciton: `npm run build`
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run dev`
+3. Build for produciton: `npm run build`
