@@ -19,9 +19,6 @@ devDependencies:
   release-it:
     specifier: ^17.1.1
     version: 17.1.1
-  vite-plugin-unit:
-    specifier: ^1.0.0
-    version: 1.0.0
 
 packages:
 
@@ -3076,11 +3073,6 @@ packages:
     dependencies:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
-    dev: true
-
-  /vite-plugin-unit@1.0.0:
-    resolution: {integrity: sha512-5GkBdE0KKc1OyYV3Aqg6JIN56T1F1hNkG2WcXKiPm8zaBqFZB3nDTuwLTLc9GuKLtN2LJFiLx5TPSVeeOFJV5w==}
-    engines: {node: '>=18', pnpm: '>=8'}
     dev: true
 
   /wcwidth@1.0.1:
