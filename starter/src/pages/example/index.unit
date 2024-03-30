@@ -1,0 +1,13 @@
+import Navbar from "../../components/nav.unit";
+import Footer from "../../components/footer.unit";
+
+<Navbar />
+
+<main>
+    <h2>Example Page</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, pariatur! Impedit quod amet illum facilis, quis voluptatibus? Omnis recusandae, aut reprehenderit, minima, fuga architecto error nam a earum reiciendis esse.
+    </p>
+</main>
+
+<Footer />

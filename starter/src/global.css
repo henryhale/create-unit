@@ -94,7 +94,6 @@ main {
     padding: 2em;
 }
 
-input,
 button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -107,7 +106,6 @@ button {
     transition: border-color 0.25s;
 }
 
-input,
 button:hover {
     border-color: #fcf94f;
 }
@@ -130,7 +128,6 @@ button:focus-visible {
         color: #444309;
     }
 
-    input,
     button {
         background-color: #f9f9f9;
     }

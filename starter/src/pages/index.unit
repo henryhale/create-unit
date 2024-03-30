@@ -5,10 +5,19 @@ import Footer from "../components/footer.unit";
 
 <main>
     <div class="card">
-        <button x-data="{count: 0}" @click="count++" type="button">
-            Count: <span x-text="count"></span>
+        <button type="button" id="btn">
+            Count: <span id="count">0</span>
         </button>
     </div>
 </main>
 
 <Footer />
+
+<script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("btn");
+        const count = document.getElementById("count");
+        let i = 0;
+        btn.onclick = () => count.innerHTML = (++i);
+    });
+</script>

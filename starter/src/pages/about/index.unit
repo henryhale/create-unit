@@ -1,0 +1,15 @@
+import Navbar from "../../components/nav.unit";
+import Footer from "../../components/footer.unit";
+
+<Navbar />
+
+<main>
+    <h2>Unit.js</h2>
+    <p>
+        Unit.js is a sweet little framework powered by <a href="https://vitejs.dev">vite.js</a>
+        <br />
+        to enable you build multi-page static websites.
+    </p>
+</main>
+
+<Footer />
