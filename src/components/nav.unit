@@ -2,12 +2,12 @@ import NavItem from "./nav-item.unit";
 
 <nav>
     <a href="https://github.com/henryhale/create-unit">
-        <img src="/favicon.png" alt="Unit.js" class="logo"/>
+        <img src="/create-unit/favicon.png" alt="Unit.js" class="logo"/>
     </a>
     <h1>Unit.js</h1>
     <ul>
-        <NavItem name="Home" href="/" />
-        <NavItem name="About" href="/about/" />
-        <NavItem name="Example" href="/example/" />
+        <NavItem name="Home" href="/create-unit/" />
+        <NavItem name="About" href="/create-unit/about/" />
+        <NavItem name="Example" href="/create-unit/example/" />
     </ul>
 </nav>
