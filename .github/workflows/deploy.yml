@@ -50,6 +50,7 @@ jobs:
         run: |
           pnpm install
           pnpm build
+          cp README.md dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
