@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.png" />
+    <title>Unit.js</title>
+  <script type="module" crossorigin src="./assets/main-Cm4GHxWc.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-D5pDHw1L.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav >
+    <a href="https://github.com/henryhale/create-unit">
+        <img src="./favicon.png" alt="Unit.js" class="logo"/>
+    </a>
+    <h1>Unit.js</h1>
+    <ul>
+        <li >
+    <a href="/">Home</a>
+</li>
+        <li >
+    <a href="/about/">About</a>
+</li>
+        <li >
+    <a href="/example/">Example</a>
+</li>
+    </ul>
+</nav>
+
+<main>
+    <div class="card">
+        <button type="button" id="btn">
+            Count: <span id="count">0</span>
+        </button>
+    </div>
+</main>
+
+<footer >
+    <p>
+        Learn how to get started <a href="https://github.com/henryhale/create-unit#getting-started">here</a>.
+    </p>
+    <p>
+        Built with 💛 by 
+        <a href="https://github.com/henryhale">Henry Hale</a>.
+    </p>
+</footer>
+
+<script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("btn");
+        const count = document.getElementById("count");
+        let i = 0;
+        btn.onclick = () => count.innerHTML = (++i);
+    });
+</script>
+    </div>
+</body>
+
+</html>
