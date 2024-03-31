@@ -21,7 +21,7 @@ Define state and components once, reuse them wherever.
 
 ![](https://github.com/henryhale/create-unit/blob/master/screenshot.png)
 
-Demo link: [Click here](https://henryhale.github.io/unit.js/).
+Demo link: [Click here](https://henryhale.github.io/create-unit/).
 
 ## Key Features
 
