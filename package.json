@@ -1,32 +1,17 @@
 {
-  "name": "create-unit",
-  "version": "0.0.9",
+  "name": "unit.js-starter",
+  "private": true,
+  "version": "0.0.0",
   "description": "Build your website in units.",
-  "bin": {
-    "create-unit": "bin/cli.js"
-  },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "create",
-    "starter",
-    "template",
-    "unit.js",
-    "vite"
-  ],
-  "author": {
-    "name": "Henry Hale",
-    "url": "https://github.com/henryhale"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "fs-extra": "^11.2.0",
-    "yoctocolors": "^1.0.0"
-  },
+  "keywords": [],
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.1",
-    "release-it": "^17.1.1"
+    "vite": "^5.2.7",
+    "vite-plugin-unit": "^1.0.0"
   }
 }

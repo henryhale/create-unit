@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - demo
 
 permissions:
   contents: write
@@ -46,13 +46,10 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
-      - name: Install dependencies
-        run: |
-          cd starter
-          pnpm install
-
       - name: Build
-        run: pnpm build
+        run: |
+          pnpm install
+          pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
