@@ -10,7 +10,7 @@ focus - simplicity - productivity
 
 ## Overview
 
-Unit.js is a lightweight HTML-first UI framework designed to bring focus, simplicity, and enhanced developer productivity to your projects.
+Unit.js is a lightweight HTML-first static site generator designed to bring focus, simplicity, and enhanced developer productivity to your projects.
 Powered by [Vite](https://vitejs.dev), Unit.js encourages a streamlined development experience with a unique approach to components.
 
 Define state and components once, reuse them wherever.
