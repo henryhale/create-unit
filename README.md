@@ -65,7 +65,7 @@ Basic understanding of HTML, CSS, JavaScript and Node.js ([npm](https://npmjs.or
    Start building your UI component by simply create a new file `hello.unit` under the `src/components/` folder. 
 
    ```html
-   <!-- hello.unit -->
+   <!-- src/components/hello.unit -->
    <h1>Hello, Unit.js!</h1>
    ```
 
@@ -76,6 +76,12 @@ Basic understanding of HTML, CSS, JavaScript and Node.js ([npm](https://npmjs.or
    import Hello from "../components/hello.unit";
 
    <Hello />
+   ```
+
+   Of course you can add props html attributes, for example:
+   ```html
+   ...
+   <Hello class="text-xl" id="hello" />
    ```
 
 3. **Run the Development Server**
